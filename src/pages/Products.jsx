@@ -3,7 +3,7 @@ import { ProductContext } from '../contex/Productcontext'
 
 const Products = () => {
 
-  const { products, addCart } = useContext(ProductContext)
+  const { products, addCart } = useContext(ProductContext);
   // {JSON.stringify(products)}
 
 

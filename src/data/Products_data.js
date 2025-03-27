@@ -182,4 +182,9 @@ export const product_data = [
 ];
 
 
-export const products_categories = [{ label: 'Mobile', value: 'mobile' }, { label: 'Tablet', value: 'tablet' }, { label: 'Laptop', value: 'laptop' }];
+export const products_categories = [
+    { label: 'Mobile', value: 'smartphones' }, 
+    { label: 'Laptop', value: 'laptops' },
+    { label: 'Tablet', value: 'tablets' }, 
+    { label: 'Vehicle', value: 'vehicle' },  
+];

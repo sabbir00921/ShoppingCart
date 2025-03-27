@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className='flex justify-between w-full px-9 py-3 text-2xl border-b shadow-2xl' >
                 {/* logo portion */}
                 <div>
-                    <Link to={"/"}>BAZAR-GHAT</Link>
+                    <Link to={"/"} className='font-semibold'>BAZAR-GHAT</Link>
                 </div>
                 <div className='flex justify-center gap-x-4 items-center'>
                     {products_categories.map((category, index) => (

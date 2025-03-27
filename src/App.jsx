@@ -4,12 +4,13 @@ import Navbar from './components/Navbar';
 import Products from './pages/Products';
 import Cart from './pages/Cart';
 import Success from './pages/Success';
-import Fetchdata from './components/Fetchdata';
+import Home from './pages/Home';
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navbar />}>
+          <Route index element={<Home />}></Route>
           <Route path='/:category' element={<Products />}></Route>
           <Route path='/cart' element={<Cart />}></Route>
           <Route path='/success' element={<Success />}></Route>
